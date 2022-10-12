@@ -10,7 +10,7 @@ Current version: `1.0.0-ALPHA-1`
 
 ### Repository
 
-```
+```markdown
 <repository>     
     <id>negative-games</id>
     <url>https://repo.negative.games/repository/maven-public/</url>
@@ -20,7 +20,7 @@ Current version: `1.0.0-ALPHA-1`
 ### Dependency
 
 {% code lineNumbers="true" %}
-```
+```markdown
 <dependency>
   <groupId>games.negative.framework.discord</groupId>
   <artifactId>discord-framework</artifactId>
@@ -35,7 +35,7 @@ Current version: `1.0.0-ALPHA-1`
 Add the following code to your pom.xml under `maven-shade-plugin`
 
 {% code lineNumbers="true" %}
-```
+```markdown
 <configuration>
   <relocations>
     <relocation>
