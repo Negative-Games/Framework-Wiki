@@ -19,7 +19,9 @@ repositories {
 ### Dependencies
 
 ```groovy
-implementation 'games.negative.framework.discord:discord-framework:{VERSION}'
+dependencies {
+    implementation 'games.negative.framework.discord:discord-framework:{VERSION}'
+}
 ```
 
 ### Shading into your JAR
