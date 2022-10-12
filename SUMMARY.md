@@ -20,3 +20,6 @@
   * [Using Gradle](discord-framework/dependencies/using-gradle.md)
 * [DiscordBot](discord-framework/discordbot.md)
 * [SlashCommands](discord-framework/slashcommands.md)
+* [Configuration](discord-framework/configuration/README.md)
+  * [JSON Configuration](discord-framework/configuration/json-configuration.md)
+  * [Properties Configuration](discord-framework/configuration/properties-configuration.md)
