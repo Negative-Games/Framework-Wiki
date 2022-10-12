@@ -9,7 +9,11 @@ Here you will find all you need to know about the Framework, what features we ha
 
 
 
-### Table of Contents
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-* [Base64 Serializer](overview/base64-serializer.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
