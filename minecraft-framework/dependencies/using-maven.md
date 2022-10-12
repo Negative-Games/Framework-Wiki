@@ -10,7 +10,7 @@ Current version: `3.0.0-ALPHA-1`
 
 ### Repository
 
-```markdown
+```xml
 <repository>     
     <id>negative-games</id>
     <url>https://repo.negative.games/repository/maven-public/</url>
