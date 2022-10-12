@@ -4,6 +4,10 @@
 
 ## ⚒ Minecraft Framework
 
+* [Landing](minecraft-framework/landing.md)
+* [Dependencies](minecraft-framework/dependencies/README.md)
+  * [Using Maven](minecraft-framework/dependencies/using-maven.md)
+  * [Using Gradle](minecraft-framework/dependencies/using-gradle.md)
 * [Base64 Serializer](overview/base64-serializer.md)
 * [Commands](overview/commands/README.md)
   * [Commands](overview/commands/commands.md)
