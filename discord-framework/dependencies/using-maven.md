@@ -8,6 +8,17 @@ description: This page shows you how you would add this library to your Maven Pr
 Current version: `1.0.0-ALPHA-1`
 {% endhint %}
 
+### Repository
+
+```
+<repository>     
+    <id>negative-games</id>
+    <url>https://repo.negative.games/repository/maven-public/</url>
+</repository>
+```
+
+### Dependency
+
 {% code lineNumbers="true" %}
 ```
 <dependency>
