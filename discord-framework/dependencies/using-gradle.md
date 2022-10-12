@@ -35,7 +35,7 @@ plugins {
 }
 ```
 
-Next you should add this somewhere in your build.gradle file
+Next you should add this somewhere in your `build.gradle` file
 
 ```groovy
 def id = "MyApplication" // Replace with the application name
