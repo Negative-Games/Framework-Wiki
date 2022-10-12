@@ -2,8 +2,8 @@
 
 * [👋 Landing Page](README.md)
 
-## 👀 Overview
+## ⚒ Minecraft Framework
 
-* [Base64 Serializer](overview/base64-serializer.md)
-* [Commands](overview/commands/README.md)
-  * [Commands](overview/commands/commands.md)
+* [Base64 Serializer](minecraft-framework/base64-serializer.md)
+* [Commands](minecraft-framework/commands/README.md)
+  * [Commands](minecraft-framework/commands/commands.md)
