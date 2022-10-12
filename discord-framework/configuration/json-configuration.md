@@ -14,9 +14,9 @@ This configuration system uses the Gson library to easily load json files to the
 
 ```xml
 <dependency>
-    <groupId>com.google.code.gson</groupId>
-    </artifactId>
-    <version>2.9.1</version>
+  <groupId>com.google.code.gson</groupId>
+  <artifactId>gson</artifactId>
+  <version>2.9.1</version>
 </dependency>
 ```
 
