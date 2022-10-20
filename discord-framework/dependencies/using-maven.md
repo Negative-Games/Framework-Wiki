@@ -5,7 +5,7 @@ description: This page shows you how you would add this library to your Maven Pr
 # Using Maven
 
 {% hint style="info" %}
-Current version: `1.0.0-ALPHA-3`
+Current version: `1.0.0-ALPHA-4`
 {% endhint %}
 
 ### Repository
@@ -22,7 +22,7 @@ Current version: `1.0.0-ALPHA-3`
 {% code lineNumbers="true" %}
 ```markdown
 <dependency>
-  <groupId>games.negative.framework.discord</groupId>
+  <groupId>games.negative.framework</groupId>
   <artifactId>discord-framework</artifactId>
   <version>{VERSION}</version>
   <scope>compile</scope>

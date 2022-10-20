@@ -5,7 +5,7 @@ description: This page shows you how you would add this library to your Gradle P
 # Using Gradle
 
 {% hint style="info" %}
-Current version: `1.0.0-ALPHA-3`
+Current version: `1.0.0-ALPHA-4`
 {% endhint %}
 
 ### Repository
@@ -20,7 +20,7 @@ repositories {
 
 ```groovy
 dependencies {
-    implementation 'games.negative.framework.discord:discord-framework:{VERSION}'
+    implementation 'games.negative.framework:discord-framework:{VERSION}'
 }
 ```
 
