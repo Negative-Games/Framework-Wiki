@@ -6,6 +6,8 @@ description: >-
 
 # Commands
 
+### Creating a command
+
 To create a command, you'll need to create a new class and extend the `Command` class. You can find an example below:
 
 ```java
@@ -14,6 +16,12 @@ public class EpicCommand extends Command {}
 ```
 
 Next, you need to specify some settings for the plugin to understand how your command should function. These settings help reduce boilerplate code. **You are required to annotate your class with** `@CommandInfo`
+
+{% hint style="info" %}
+There is also no need to register these commands into your `plugin.yml`!&#x20;
+
+Just make sure you [#registering-commands](commands.md#registering-commands "mention")
+{% endhint %}
 
 ```java
 import games.negative.framework.command.Command;
@@ -45,11 +53,12 @@ Great! Now that we've specified some info to setup the command, lets get onto wh
 
 You'll need to override a method, called "onCommand". Here's an example:
 
-<pre><code>import games.negative.framework.command.Command;
+```java
+import games.negative.framework.command.Command;
 import games.negative.framework.command.annotation.CommandInfo;
-<strong>
-</strong><strong>@CommandInfo(
-</strong>    name = "ban",
+
+@CommandInfo(
+    name = "ban",
     description = "Bans a user!",
     permission = "command.ban",
     aliases = {"b", "punishthatplayer"},
@@ -64,6 +73,22 @@ public class EpicCommand extends Command {
         System.out.println(sender.getName() + " executed the ban command!");
     }
 
-}</code></pre>
+}
+```
 
 Inside of that method you can place all the logic for your command!&#x20;
+
+### Registering commands
+
+We have made registering commands as simple as possible (is only uses on method!). In your Main class, insert this code:
+
+<pre class="language-java"><code class="lang-java">public final class EpicPliugin extends BasePlugin {
+<strong>        // Your plugin logic
+</strong>            
+        registerCommands(
+                new EpicCommand(),
+                new AnotherEpicCommand()
+        );
+}</code></pre>
+
+It's as simple as that!&#x20;
