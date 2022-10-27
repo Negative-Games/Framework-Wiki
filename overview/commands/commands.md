@@ -82,13 +82,15 @@ Inside of that method you can place all the logic for your command!&#x20;
 
 We have made registering commands as simple as possible (is only uses on method!). In your Main class, insert this code:
 
-<pre class="language-java"><code class="lang-java">public final class EpicPliugin extends BasePlugin {
-<strong>        // Your plugin logic
-</strong>            
+```java
+public final class EpicPliugin extends BasePlugin {
+        // Your plugin logic
+            
         registerCommands(
                 new EpicCommand(),
                 new AnotherEpicCommand()
         );
-}</code></pre>
+}
+```
 
 It's as simple as that!&#x20;
