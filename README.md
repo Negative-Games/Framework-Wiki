@@ -1,5 +1,7 @@
 ---
 description: Welcome to the Negative Games Framework Official documentation page!
+cover: .gitbook/assets/Framework.png
+coverY: 9.27070457354759
 layout: landing
 ---
 
