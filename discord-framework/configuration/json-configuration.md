@@ -38,7 +38,9 @@ You can load a JSON file to its class representation by using one method!
 
 {% code title="Code Example" lineNumbers="true" %}
 ```java
-MyConfigClass config = jsonConfigManager.loadOrCreate("configs", "config.json", MyConfigClass.class, new MyConfigClass());
+MyConfigClass config = jsonConfigManager.loadOrCreate(
+                "configs", "config.json", MyConfigClass.class, new MyConfigClass()
+                );
 ```
 {% endcode %}
 
