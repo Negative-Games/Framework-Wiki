@@ -1,5 +1,7 @@
 ---
-description: This page will show you how to set up your main class to support Framework
+description: >-
+  To make this library work to its fullest potential, you must extend your main
+  class with BasePlugin
 ---
 
 # Setting up your main class

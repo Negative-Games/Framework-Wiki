@@ -12,8 +12,8 @@ Welcome to the Landing Page of the Discord Framework!
 
 ### Table of Contents
 
-{% content-ref url="discordbot.md" %}
-[discordbot.md](discordbot.md)
+{% content-ref url="setting-up-your-main-bot-class.md" %}
+[setting-up-your-main-bot-class.md](setting-up-your-main-bot-class.md)
 {% endcontent-ref %}
 
 {% content-ref url="slashcommands.md" %}

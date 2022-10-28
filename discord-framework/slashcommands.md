@@ -38,7 +38,7 @@ public class CommandExample extends SlashCommand {
 
 ### Registering your SlashCommand
 
-You can use two different methods to register your SlashCommand depending on what you want to do. You can use registerServerCommand and registerGlobalCommand in your main class which extends DiscordBot ([see DiscordBot](discordbot.md))!
+You can use two different methods to register your SlashCommand depending on what you want to do. You can use registerServerCommand and registerGlobalCommand in your main class which extends DiscordBot ([see DiscordBot](setting-up-your-main-bot-class.md))!
 
 {% hint style="info" %}
 When attempting to register Global Commands, it may take up to an hour or more for Discord's API to register it!

@@ -20,7 +20,7 @@
 * [Dependencies](discord-framework/dependencies/README.md)
   * [Using Maven](discord-framework/dependencies/using-maven.md)
   * [Using Gradle](discord-framework/dependencies/using-gradle.md)
-* [DiscordBot](discord-framework/discordbot.md)
+* [Setting up your main bot class](discord-framework/setting-up-your-main-bot-class.md)
 * [SlashCommands](discord-framework/slashcommands.md)
 * [Configuration](discord-framework/configuration/README.md)
   * [JSON Configuration](discord-framework/configuration/json-configuration.md)
