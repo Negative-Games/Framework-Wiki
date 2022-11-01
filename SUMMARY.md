@@ -11,8 +11,9 @@
 * [Setting up your main class](minecraft-framework/setting-up-your-main-class.md)
 * [Base64 Serializer](overview/base64-serializer.md)
 * [Commands](overview/commands/README.md)
+  * [Page 1](minecraft-framework/commands/page-1.md)
   * [Commands](overview/commands/commands.md)
-  * [Subcommands](minecraft-framework/commands/subcommands.md)
+* [Database Utils](minecraft-framework/database-utils.md)
 
 ## 🎧 Discord Framework
 
