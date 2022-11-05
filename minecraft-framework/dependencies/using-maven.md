@@ -5,7 +5,7 @@ description: This page shows you how you would add this library to your Maven Pr
 # Using Maven
 
 {% hint style="info" %}
-Current version: `3.0.0-ALPHA-3`
+Current version: `3.0.0-ALPHA-4`
 {% endhint %}
 
 ### Repository
